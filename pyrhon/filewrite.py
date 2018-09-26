@@ -1,0 +1,38 @@
+##file = open("testfile.txt","w")
+##file.write("test \ntext")
+##file.close()
+##file = open("testfile.txt", "r")
+##print(file.read())
+##file.close()
+##---------------------
+##file_name = input("Enter a file name:")
+##file = open("testfile.txt", "r")
+##print(file.read())
+##print(file.readline())
+#print(file.readlines())
+##no = 0
+##for line in file:
+##    no += 1
+##    print(line)
+##print("Total number of lines are ", no)
+##file.close()
+##file = open("testfile.txt", "a")
+##file.write("whatsup everybody poods here")
+##file.close()
+##file = open("testfile.txt", "r")
+##print(file.read())
+##file.close()
+##file = open("testfile.txt", "r")
+##no = 0
+##data = file.readlines()
+##for var in data:
+##    word = var.split()
+##    no = no + len(word)
+##    print(word)
+##print(no)
+##print(file.tell())
+##print(file.seek(25))
+##print(file.read())
+##file.seek(-1)
+##print(file.tell())
+##file.close()
